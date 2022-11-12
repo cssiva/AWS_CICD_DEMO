@@ -5,8 +5,8 @@ phases:
         commands:
             - echo "Build block"
             - ls
-            - echo "Running tests to check if "Congratulations" present in index.html file"
-            - grep "Successfully created pipeline!!!" index.html
+            - echo "Running tests to check if "Successfully created pipeline !!!" present in index.html file"
+            - grep "Successfully created pipeline !!!" index.html
     post_build:
         commands:
             - echo "Post build phase"
